@@ -536,5 +536,69 @@ footer .pie-chico {
   transform: translateY(-2px);
 }
 
+/* Contenido de las páginas de cada área */
+
+.intro-pagina {
+  max-width: 900px;
+  margin: 35px auto 25px;
+  padding: 0 22px;
+  text-align: center;
+}
+
+.intro-pagina p {
+  color: #a6b9d5;
+  line-height: 1.8;
+  margin-top: 15px;
+}
+
+.titulo-galeria {
+  text-align: center;
+  font-family: 'Press Start 2P', monospace;
+  font-size: clamp(14px, 2vw, 22px);
+  line-height: 1.8;
+}
+
+.galeria-grupo {
+  width: 86%;
+  max-width: 1200px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.foto-placeholder {
+  min-height: 210px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  background: #10192a;
+  border: 2px solid #168cff;
+  color: #a6b9d5;
+}
+
+.foto-placeholder strong {
+  color: #6bc7ff;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 11px;
+}
+
+.volver {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto 45px;
+}
+
+@media (max-width: 700px) {
+  .galeria-grupo {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 
 
