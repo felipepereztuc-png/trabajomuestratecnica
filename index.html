@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050805">
+  <title>Muestra Técnica | 8-Bit</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="decoracion-fondo" aria-hidden="true">
+    <span class="moneda moneda-1">●</span>
+    <span class="moneda moneda-2">●</span>
+    <span class="bloque bloque-1">?</span>
+    <span class="bloque bloque-2">?</span>
+    <span class="nube nube-1">☁</span>
+    <span class="nube nube-2">☁</span>
+  </div>
+
+  <header class="encabezado">
+    <p class="etiqueta">ESCUELA TÉCNICA · PROYECTO</p>
+    <h1>MUESTRA TÉCNICA</h1>
+    <div class="separador-pixel">
+      <span></span> ★ <span></span>
+    </div>
+    <p class="subtitulo">TECNOLOGÍA · CREATIVIDAD · TRABAJO EN EQUIPO</p>
+  </header>
+
+  <main>
+    <section class="galeria" aria-label="Galería de trabajos">
+      <div class="marco-fotos">
+        <button class="flecha anterior" id="anterior"
+          aria-label="Foto anterior">❮</button>
+
+        <img
+          id="foto-principal"
+          src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1800&q=85"
+          alt="Computadora en un espacio de trabajo"
+        >
+
+        <div class="texto-foto">
+          <span id="numero-foto">01 / 04</span>
+          <p id="titulo-foto">TRABAJOS DE LA MUESTRA</p>
+        </div>
+
+        <button class="flecha siguiente" id="siguiente"
+          aria-label="Foto siguiente">❯</button>
+      </div>
+
+      <div class="controles-fotos" id="puntos" aria-label="Elegir foto">
+        <button class="punto activo" aria-label="Mostrar foto 1"></button>
+        <button class="punto" aria-label="Mostrar foto 2"></button>
+        <button class="punto" aria-label="Mostrar foto 3"></button>
+        <button class="punto" aria-label="Mostrar foto 4"></button>
+      </div>
+    </section>
+
+    <section class="proyectos">
+      <h2>ÁREAS DEL PROYECTO</h2>
+      <p class="introduccion">
+        Un recorrido por las tareas y los trabajos realizados por cada grupo.
+      </p>
+
+
+<div class="tarjetas">
+
+  <article class="tarjeta">
+    <div class="icono icono-web">&lt;/&gt;</div>
+    <h3>PÁGINA WEB</h3>
+    <p>
+      Diseño y programación del sitio web para presentar los trabajos
+      de la muestra.
+    </p>
+    <a href="desarrollo.html" class="boton">Ver galería →</a>
+  </article>
+
+  <article class="tarjeta">
+    <div class="icono">🎨</div>
+    <h3>DECORACIÓN</h3>
+    <p>
+      Preparación y ambientación del espacio para crear una muestra
+      atractiva y organizada.
+    </p>
+    <a href="decoracion.html" class="boton">Ver galería →</a>
+  </article>
+
+  <article class="tarjeta">
+    <div class="icono">🔌</div>
+    <h3>CABLEADO</h3>
+    <p>
+      Organización de cables y conexiones necesarias para los equipos
+      y las actividades.
+    </p>
+    <a href="cableado.html" class="boton">Ver galería →</a>
+  </article>
+
+  <article class="tarjeta">
+    <div class="icono">🖥️</div>
+    <h3>COMPUTADORAS</h3>
+    <p>
+      Armado, revisión y mantenimiento de computadoras y sus
+      componentes.
+    </p>
+    <a href="computadoras.html" class="boton">Ver galería →</a>
+  </article>
+
+</div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="suelo-pixel"></div>
+    <p>INSERT COIN · MUESTRA TÉCNICA</p>
+    <p class="pie-chico">Un proyecto de aprendizaje y trabajo en equipo.</p>
+  </footer>
+
+  <script src="js/animaciones.js"></script>
+</body>
+</html>
+
